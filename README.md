@@ -16,5 +16,6 @@
   - program: 11A Ders Programı
   - quiz: Deneme Quiz1
   - table: İlk table etiketi kullanımı
+  - siniflistesi: Sınıf listesi örneği
 </details>
 
