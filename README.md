@@ -8,3 +8,13 @@
   - Uygulama 3: Lorem ve biçimlendirme etiketleri kullanımı
   - Uygulama 4: Sıralı-Sırasız liste kullaımı
 </details>
+<details>
+  <summary>021024</summary>
+ 
+
+  - list1: Donanım birimleri listesi
+  - program: 11A Ders Programı
+  - quiz: Deneme Quiz1
+  - table: İlk table etiketi kullanımı
+</details>
+
