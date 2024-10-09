@@ -18,4 +18,14 @@
   - table: İlk table etiketi kullanımı
   - siniflistesi: Sınıf listesi örneği
 </details>
+<details>
+  <summary>241009</summary>
+ 
+
+  - kart.html: Resimli öğrenci kartı
+  - manav.html: Yaz mevsimi meyveleri örnek
+  - mevsim.html: İstanbul'da mevsimler ve manzara
+  - quiz2.html: Quiz2
+  - resimekleme.html: Image etiketi başlangıç
+</details>
 
