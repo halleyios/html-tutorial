@@ -15,6 +15,7 @@
 <details>
   
   <summary>241009</summary>
+  
   - IMAGE ETİKETİ KULLANIMI VE ÖRNEKLERİ
   - RESİMLİ ÖĞRENCİ KARTI ÖRNEĞİ
 
