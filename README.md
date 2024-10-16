@@ -20,4 +20,12 @@
   - RESİMLİ ÖĞRENCİ KARTI ÖRNEĞİ
 
 </details>
+<details>
+  
+  <summary>241016</summary>
+  
+  - VİDEO AUDİO ETİKETİ KULLANIMI
+  - TABLO İÇİ VİDEO ETİKETİ
+
+</details>
 
