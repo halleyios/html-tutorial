@@ -28,4 +28,11 @@
   - TABLO İÇİ VİDEO ETİKETİ
 
 </details>
+<details>
+  
+  <summary>241023</summary>
+  
+  - BAĞLANTI ETİKETLERİ VE ÖRNEKLERİ
+
+</details>
 
