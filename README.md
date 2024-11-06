@@ -1,6 +1,6 @@
 <h1>HTML Kullanımı</h1>
 <details>
-  <summary>250924</summary>
+  <summary>240925</summary>
 
   - TEMEL HEAD ETİKETLERİ
   - PARAGRAPHS ETİKETİ VE LOREM VE BİÇİMLENDİRME ETİKETLERİ KULLANIMI
