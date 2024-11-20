@@ -7,7 +7,7 @@
   - SIRALI-SIRASIZ LİSTE KULLANIMI
 </details>
 <details>
-  <summary>021024</summary>
+  <summary>241002</summary>
  
   - LİSTE ÖRNEKLERİ
   - TABLE ETİKETİ KULLANIMI
