@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Örnekleri 3</title>
+</head>
+<body>
+    <h1>Form Uygulama Örneği 3</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+       
+        <label for="ad">Adı:</label>
+        <input type="text" id="ad" name="ad" 
+               placeholder="Adınızı girin" required 
+               maxlength="20" size="20" autocomplete="off"><br><br>
+
+      
+        <label for="soyad">Soyadı:</label>
+        <input type="text" id="soyad" name="soyad" 
+               placeholder="Soyadınızı girin" required><br><br>
+
+       
+        <label for="dogum_tarihi">Doğum Tarihiniz:</label>
+        <input type="date" id="dogum_tarihi" name="dogum_tarihi" 
+               value="2015-06-20" min="2000-01-01" max="2024-01-01"><br><br>
+
+        
+        <label for="sifreniz">Şifreniz:</label>
+        <input type="password" id="sifreniz" name="sifreniz" 
+               minlength="8" maxlength="16" required><br><br>
+
+       
+        <label for="maas">Maaş:</label>
+        <input type="number" id="maas" name="maas" 
+               min="5000" max="100000" step="500" 
+               placeholder="Örn: 5000.50"><br><br>
+
+        
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" 
+               placeholder="kisi@eposta.com" autocomplete="on"><br><br>
+
+      
+        <label for="hobi">Hobileriniz:</label>
+        <input type="text" id="hobi" name="hobi" list="hobiler"><br><br>
+        <datalist id="hobiler">
+            <option value="Kitap Okuma">
+            <option value="Müzik Dinlemek ">
+            <option value="Voleybol">   
+            <option value="Resim Yapmak">
+                
+        </datalist>
+
+       
+        <label for="kullanici_adi">Kullanıcı Adınız:</label>
+        <input type="text" id="kullanici_adi" name="kullanici_adi" 
+               value="hilaldesouza" readonly><br><br>
+
+       
+        <label for="kredi_notu">Kredi Notunuz:</label>
+        <input type="number" id="kredi_notu" name="kredi_notu" 
+               value="70" disabled><br><br>
+
+       
+        <label for="ozgecmis">Özgeçmiş Dosyanız:</label>
+        <input type="file" id="ozgecmis" name="ozgecmis" 
+               multiple><br><br>
+
+        <button type="submit">Kaydet</button>
+    </form>
+</body>
+</html>
+
+
+
