@@ -35,4 +35,11 @@
   - BAĞLANTI ETİKETLERİ VE ÖRNEKLERİ
 
 </details>
+<details>
+  
+  <summary>241120</summary>
+  
+  - FORM ETİKETİ VE ÖZELLİKLERİ
+
+</details>
 
