@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Örneği</title>
+</head>
+<body>
+    <h1>fieldset ve select kullanımı</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php"method="post">
+        <fieldset>
+            <legend>Eğitim Bilgileri</legend>
+            <label for="okul">Okul</label><br>
+            <input type="text" id="okul" name="okul"><br><br>
+
+            <label for="sinif">Sınıf</label><br>
+            <input type="text" id="sinif" name="sinif"><br><br>
+
+            <label for="bolum">Bölümünüz</label><br>
+            <select id="bolum" name="bolum">
+                <option value="1">Bilişim Teknolojileri</option>
+                <option value="2">Çocuk Gelişimi</option>
+                <option value="3">Grafik Tasarım</option>
+                <option value="4">Moda Tasarım</option>
+                </select>
+            <br><br>
+            <button type="submit">KAYDET</button>
+        </fieldset>
+    
+    
+    </form>
+  
+</body>
+</html>

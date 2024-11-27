@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÖDEV</title>
+</head>
+<body>
+    <h1>Müşteri Kayıt Formu</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+          <legend>Kişisel Bilgiler</legend>
+          
+          <label for="adSad">Ad Soyad:</label> <br>
+          <input type="text" id="adSad" name="adSad">
+          <br><br>
+      
+          <label for="dTarih">Doğum Tarihi:</label><br>
+          <input type="date" id="dTarih" name="dTarih">
+          <br><br>
+      
+          <label for="maas">Maaş Beklentiniz:</label> <br>
+          <input type="number" id="maas" name="maas" step="1000" min="20000" max="60000">
+          <br><br>
+
+          <label for="ders">En Sevdiğiniz Ders:</label><br>
+          <input type="text" id="ders" name="ders" list="dersler">
+         <datalist id="dersler">
+            <option value="Web Tabanlı Uygulama Geliştirme"></option>
+            <option value="Yapay Zeka ve Makine Öğrenmesi"></option>
+            <option value="Mobil Uygulama Geliştirme"></option>
+            <option value="Grafik ve Canlandırma"></option>
+         </datalist>
+          
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Üyelik Bilgileri</legend>
+            
+            <label for="kad">Kullanıcı Ad:</label><br>
+            <input type="text" id="kad" name="kad" minlength="5" required>
+            <br><br>
+        
+            <label for="eposta">E-Posta:</label><br>
+            <input type="email" id="eposta" name="eposta" placeholder="ornek@yazilim11.com">
+            <br><br>
+        
+            <label for="sifre">Şifreniz</label><br>
+            <input type="password" id="sifre" name="sifre" placeholder="En az 8 karekter olmalıdır"  minlength="8" required>
+            <br><br>
+
+</body>
+</html>

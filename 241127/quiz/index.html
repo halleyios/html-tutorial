@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ 2</title>
+</head>
+<body>
+    <h1>HALLEY</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>HİLAL DE SOUZA</legend>
+            <label for="anahtar">Güvenlik Anahtarı:</label><br>
+            <input type="text" id="anahtar" name="anahtar" value="7492713892192" disabled><br><br>
+
+            <label for="eposta">E-posta:</label><br>
+            <input type="email" id="eposta" name="eposta"
+            placeholder="Örn:admin@gmail.com:" required ><br><br>
+
+            <label for="dtarih">Doğum Tarihi:</label><br>
+            <input type="date" id="dtarih" name="dtarih"
+            min="2000-01-01" max="2010-12-31"><br><br>
+
+            <label for="sifre">Şifre</label><br>
+            <input type="password" id="sifre" name="sifre"
+            maxlength="20"><br><br>
+
+            <label for="avatar">Avatar Seçimi</label><br>
+            <select id="avatar" name="avatar">
+            <option value="dory">Dory</option>
+            <option value="nemo">Nemo</option>
+            <option value="moano">Moano</option>
+            <option value="rango">Rango</option>
+            </select>
+        </fieldset>
+        <br>
+        <button type="submit">KAYDET</button>
+        <button type="reset">TEMİZLE</button>
+   
+    </form>
+
+</body>
+</html>
