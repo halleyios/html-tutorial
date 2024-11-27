@@ -9,6 +9,24 @@
     <h1>fieldset ve select kullanımı</h1>
     <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php"method="post">
         <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+           <label for="isim">İsim</label><br>
+           <input type="text" id="isim" name="isim" placeholder="Ad"><br><br> 
+
+           <label for="soy">Soyisim</label><br>
+           <input type="text" id="soy" name="soy" placeholder="Soyad"><br><br>
+
+           <input type="radio" name="cinsiyet" id="kiz">
+           <label for="kiz">Kız</label>
+
+           <input type="radio" name="cinsiyet" id="erkek">
+           <label for="erkek">Erkek</label><br><br>
+
+           <label for="dtarih">Doğum Tarihi</label><br>
+           <input type="date" id="dtarih" name="dtarih" value="2020-01-01"><br><br>
+           
+        </fieldset>
+        <fieldset>
             <legend>Eğitim Bilgileri</legend>
             <label for="okul">Okul</label><br>
             <input type="text" id="okul" name="okul"><br><br>
@@ -22,11 +40,19 @@
                 <option value="2">Çocuk Gelişimi</option>
                 <option value="3">Grafik Tasarım</option>
                 <option value="4">Moda Tasarım</option>
+
                 </select>
-            <br><br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Ek Bilgiler</legend>
+            <textarea name="not" id="not" cols="50" rows="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam molestiae eum architecto accusamus, soluta fugit maiores numquam doloremque. Nisi atque quibusdam deserunt ipsa repellat enim perferendis voluptate tempora placeat!</textarea>
+            <br>
+             <input type="checkbox" id="onay" name="onay">
+            <label for="onay">Çerezleri Kabul Et</label><br><br>
             <button type="submit">KAYDET</button>
         </fieldset>
-    
+   
     
     </form>
   
