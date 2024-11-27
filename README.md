@@ -40,6 +40,16 @@
   <summary>241120</summary>
   
   - FORM ETİKETİ VE ÖZELLİKLERİ
+</details>
+<details>
+  
+  <summary>241127</summary>
+  
+  - FORM ÖRNEKLERİ
+  - FİELDSET KULLANIMI
+  - RADİO VE CHECKBOX KULLANIMI
 
 </details>
+
+
 
