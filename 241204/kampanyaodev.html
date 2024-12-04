@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makyaj Kampanyaları</title>
+</head>
+<body>
+    <h1>Kampanyalar</h1>
+
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>Hangi Üründe %90 İndirim Olsun?</legend>
+
+            <input type="radio" name="kampanya" id="kamp1" value="Makyaj">
+            <label for="kamp1">Makyaj Malzemeleri</label>
+            <br>
+
+            <input type="radio" name="kampanya" id="kamp2" value="Cilt">
+            <label for="kamp2">Cilt Bakım Ürünleri</label>
+            <br>
+
+            <input type="radio" name="kampanya" id="kamp3" value="Parfüm">
+            <label for="kamp3">Parfüm Ürünleri</label>
+            <br>
+
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Hangi Makyaj Ürünlerini Tercih Ediyorsunuz?</legend>
+
+            <input type="checkbox" name="urun[]" id="urun1" value="Allık">
+            <label for="urun1">Allık</label>
+            <br>
+            
+            <input type="checkbox" name="urun[]" id="urun2" value="Far">
+            <label for="urun2">Far</label>
+            <br>
+
+            <input type="checkbox" name="urun[]" id="urun3" value="Kapatıcı">
+            <label for="urun3">Kapatıcı</label>
+            <br>
+
+            <input type="checkbox" name="urun[]" id="urun4" value="Oje">
+            <label for="urun4">Oje</label>
+        </fieldset>
+        <br>
+
+        <button type="submit">KAYDET</button>
+        <button type="reset">TEMİZLE</button>
+    </form>
+    
+</body>
+</html>
