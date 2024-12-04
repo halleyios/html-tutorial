@@ -50,6 +50,13 @@
   - RADİO VE CHECKBOX KULLANIMI
 
 </details>
+<details>
+  
+  <summary>241204</summary>
+  
+  - VİDEO ÖDEV
+   
+</details>
 
 
 
